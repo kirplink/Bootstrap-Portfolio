@@ -1,0 +1,19 @@
+.bdr-bottom {
+    border-bottom: 3px solid #33b5e5!important;
+}
+
+.bdr-top {
+    border-top: 3px solid #33b5e5!important;
+}
+
+.bdr {
+    border: 3px solid #263238!important; 
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+  }
