@@ -11,9 +11,13 @@
 }
 
 .vertical-center {
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
+    min-height: calc(100% - 140px);  /* Fallback for browsers do NOT support vh unit */
+    min-height: calc(100vh - 140px); /* These two lines are counted as one :-)       */
   
     display: flex;
     align-items: center;
   }
+
+body {
+    padding: 70px 0;
+}
